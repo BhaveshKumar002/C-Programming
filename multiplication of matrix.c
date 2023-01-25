@@ -2,8 +2,7 @@
 #include<stdlib.h>  
 int main()
 {  
-	int a[10][10],b[10][10],mul[10][10],r,c,i,j,k;    
-	system("cls");  
+	int a[10][10],b[10][10],mul[10][10],r,c,i,j,k;      
 	printf("enter the number of row=");    
 	scanf("%d",&r);    
 	printf("enter the number of column=");    
