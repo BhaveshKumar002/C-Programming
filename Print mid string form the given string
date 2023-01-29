@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <string.h>
+
+void midString(char *str)
+{
+    int len = strlen(str);
+    int mid = len / 2;
+
+    if (len % 2 == 0)
+    {
+        for (int i = mid - 1; i <= mid; i++)
+            printf("%c", str[i]);
+    }
+    else
+    {
+        printf("%c", str[mid]);
+    }
+}
+
+int main()
+{
+    char str[100];
+    printf("Enter a string: ");
+    scanf("%s", str);
+
+    printf("Middle characters of the string: ");
+    midString(str);
+
+    return 0;
+}
